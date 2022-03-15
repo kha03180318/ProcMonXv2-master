@@ -1,0 +1,612 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New Tab\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "Copy &All",                   ID_EDIT_COPYALL
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Auto Scroll",                ID_VIEW_AUTOSCROLL
+        MENUITEM SEPARATOR
+        MENUITEM "&Columns...",                 ID_VIEW_COLUMNS
+        MENUITEM SEPARATOR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Search"
+    BEGIN
+        MENUITEM "&Quick Find...\tCtrl+F",      ID_SEARCH_QUICKFIND
+        MENUITEM "&Find All...\tCtrl+Shift+F",  ID_SEARCH_FINDALL
+        MENUITEM SEPARATOR
+        MENUITEM "Find &Next\tF3",              ID_SEARCH_FINDNEXT
+    END
+    POPUP "&Event"
+    BEGIN
+        MENUITEM "&Properties...",              ID_EVENT_PROPERTIES
+        MENUITEM "&Call Stack...",              ID_EVENT_CALLSTACK
+    END
+    POPUP "&Monitor"
+    BEGIN
+        MENUITEM "&Start",                      ID_MONITOR_START
+        MENUITEM "S&top",                       ID_MONITOR_STOP
+        MENUITEM "&Pause",                      ID_MONITOR_PAUSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Clear All",                  ID_MONITOR_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "Configure &Events...",        ID_MONITOR_CONFIGUREEVENTS
+        MENUITEM "Configure &Filters...",       ID_MONITOR_FILTERS
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Always On Top",              ID_OPTIONS_ALWAYSONTOP
+        MENUITEM "&Symbols...",                 ID_OPTIONS_SYMBOLS
+    END
+    POPUP "&Tab"
+    BEGIN
+        MENUITEM "&Close\tCtrl+F4",             ID_WINDOW_CLOSE
+        MENUITEM "Close &All",                  ID_WINDOW_CLOSE_ALL
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Process Monitor X...", ID_APP_ABOUT
+    END
+END
+
+IDR_CONTEXT MENU
+BEGIN
+    POPUP "event"
+    BEGIN
+        MENUITEM "&Properties...",              ID_EVENT_PROPERTIES
+        MENUITEM SEPARATOR
+        MENUITEM "&Call Stack...",              ID_EVENT_CALLSTACK
+        MENUITEM SEPARATOR
+        MENUITEM "Copy",                        ID_EDIT_COPY
+        MENUITEM "Copy &All",                   ID_EDIT_COPYALL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ProcMonX.ico"
+
+IDI_CANCEL              ICON                    "res\\cancel.ico"
+
+IDI_DRIVER              ICON                    "res\\Driver.ico"
+
+IDI_FILTER              ICON                    "res\\filter.ico"
+
+IDI_FILTER_ADD          ICON                    "res\\filter-add.ico"
+
+IDI_FILTER_DELETE       ICON                    "res\\filter-delete.ico"
+
+IDI_FIND                ICON                    "res\\find.ico"
+
+IDI_MEMORY              ICON                    "res\\memory.ico"
+
+IDI_DLL                 ICON                    "res\\Modules.ico"
+
+IDI_NETWORK             ICON                    "res\\network.ico"
+
+IDI_OK                  ICON                    "res\\ok.ico"
+
+IDI_PLAY                ICON                    "res\\Play.ico"
+
+IDI_PROCESSES           ICON                    "res\\processes.ico"
+
+IDI_REGISTRY            ICON                    "res\\registry.ico"
+
+IDI_STOP                ICON                    "res\\Stop.ico"
+
+IDI_THREAD              ICON                    "res\\threads.ico"
+
+IDI_TOOLS               ICON                    "res\\tools.ico"
+
+IDI_EVENT               ICON                    "res\\event.ico"
+
+IDI_SAVE                ICON                    "res\\save.ico"
+
+IDI_SAVE_AS             ICON                    "res\\save_as.ico"
+
+IDI_EVENT2              ICON                    "res\\event2.ico"
+
+IDI_PROPERTIES          ICON                    "res\\properties.ico"
+
+IDI_STACK               ICON                    "res\\stack.ico"
+
+IDI_GENERIC             ICON                    "res\\event3.ico"
+
+IDI_GEAR                ICON                    "res\\gear.ico"
+
+IDI_FILE                ICON                    "res\\file.ico"
+
+IDI_HANDLE              ICON                    "res\\handle.ico"
+
+IDI_OBJECT              ICON                    "res\\object.ico"
+
+IDI_DISK                ICON                    "res\\storage.ico"
+
+IDI_HEAP                ICON                    "res\\heap.ico"
+
+IDI_HEAP2               ICON                    "res\\heap2.ico"
+
+IDI_K                   ICON                    "res\\letter-k.ico"
+
+IDI_U                   ICON                    "res\\letter-u.ico"
+
+IDI_COPY                ICON                    "res\\clip_copy.ico"
+
+IDI_PROCESS_DELETE      ICON                    "res\\process-delete.ico"
+
+IDI_PROCESS_NEW         ICON                    "res\\process-new.ico"
+
+IDI_DLL_LOAD            ICON                    "res\\dll-add.ico"
+
+IDI_DLL_UNLOAD          ICON                    "res\\dll-delete.ico"
+
+IDI_THREAD_DELETE       ICON                    "res\\threads-delete.ico"
+
+IDI_THREAD_NEW          ICON                    "res\\threads-new.ico"
+
+IDI_DOWN_ARROW          ICON                    "res\\arrow_down_blue.ico"
+
+IDI_UP_ARROW            ICON                    "res\\arrow_up_blue.ico"
+
+IDI_OPEN                ICON                    "res\\folder_open.ico"
+
+IDI_ADD                 ICON                    "res\\add.ico"
+
+IDI_FILTER_EDIT         ICON                    "res\\filter-edit.ico"
+
+IDI_CANCEL2             ICON                    "res\\delete_button.ico"
+
+IDI_OK2                 ICON                    "res\\ok_button.ico"
+
+IDI_PAUSE               ICON                    "res\\Pause.ico"
+
+IDI_SCROLL              ICON                    "res\\autoscroll.ico"
+
+IDI_SEARCH              ICON                    "res\\search.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 187, 102
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Process Monitor X"
+FONT 9, "Segoe UI", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,68,81,50,14
+    CTEXT           "Process Monitor X v2.0 Beta 1\n\n©2020-2021 Pavel Yosifovich",IDC_STATIC,42,24,108,28
+    ICON            IDR_MAINFRAME,IDC_STATIC,6,6,20,20
+    CONTROL         "<a>https://github.com/zodiacon/procmonxv2</a>",IDC_SYSLINK1,
+                    "SysLink",WS_TABSTOP,27,55,138,14
+END
+
+IDD_STACK DIALOGEX 0, 0, 339, 278
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Call Stack"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,6,42,324,228
+    LTEXT           "Process ID:",IDC_STATIC,8,6,38,8
+    LTEXT           "Thread ID:",IDC_STATIC,119,6,36,8
+    LTEXT           "Static",IDC_PROCESS,48,5,42,12,0,WS_EX_CLIENTEDGE | WS_EX_RIGHT
+    LTEXT           "Static",IDC_THREAD,157,5,42,12,0,WS_EX_CLIENTEDGE | WS_EX_RIGHT
+    PUSHBUTTON      "Copy",IDC_COPY,215,3,50,14
+    LTEXT           "Static",IDC_MESSAGE,6,24,174,8
+END
+
+IDD_EVENTS DIALOGEX 0, 0, 255, 290
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Configure Events"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Basic",IDC_BASIC,"Button",BS_AUTORADIOBUTTON,6,6,32,10
+    CONTROL         "Advanced",IDC_ADVANCED,"Button",BS_AUTORADIOBUTTON,52,6,48,10
+    PUSHBUTTON      "Expand All",IDC_EXPAND,198,12,50,14
+    PUSHBUTTON      "Collapse All",IDC_COLLAPSE,198,32,50,14
+    PUSHBUTTON      "Save...",IDC_SAVE,198,56,50,14
+    PUSHBUTTON      "&Load...",IDC_LOAD,198,75,50,14
+    PUSHBUTTON      "&Reset",IDC_RESET,198,110,50,14
+    PUSHBUTTON      "Defaults",IDC_DEFAULTS,198,128,50,14
+    DEFPUSHBUTTON   "OK",IDOK,69,269,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,135,269,50,14
+    CONTROL         "",IDC_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,6,24,186,234
+END
+
+IDD_EVENT_PROPS DIALOGEX 0, 0, 369, 272
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Event Properties"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Copy",IDC_COPY,6,6,50,14
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,6,24,354,240
+    PUSHBUTTON      "Stack",IDC_STACK,66,6,50,14
+    PUSHBUTTON      "Resolve Symbols",IDC_RESOLVE_SYM,282,6,78,14
+END
+
+IDD_FILTERS DIALOGEX 0, 0, 387, 242
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configure Filters"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_NAMES,27,9,76,70,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMPARE,109,9,71,46,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_VALUE,192,9,99,129,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_INC_EXC,297,9,48,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_ADD,357,5,26,19,BS_ICON
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,6,30,348,186
+    PUSHBUTTON      "Button1",IDC_UP,358,56,26,18,BS_ICON
+    PUSHBUTTON      "Button1",IDC_DOWN,358,80,26,18,BS_ICON
+    PUSHBUTTON      "Button1",IDC_DELETE,358,104,26,18,BS_ICON
+    PUSHBUTTON      "Button1",IDC_SAVE,358,136,26,18,BS_ICON
+    PUSHBUTTON      "Button1",IDC_LOAD,358,159,26,18,BS_ICON
+    DEFPUSHBUTTON   "OK",IDOK,135,221,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,201,221,50,14
+    LTEXT           "Filter:",IDC_STATIC,6,11,20,8
+    PUSHBUTTON      "Button1",IDC_EDIT,358,29,26,19,BS_ICON
+END
+
+IDD_FIND DIALOGEX 0, 0, 249, 140
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Quick Find"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Search text:",IDC_STATIC,14,11,41,8
+    EDITTEXT        IDC_TEXT,60,9,134,14,ES_AUTOHSCROLL
+    GROUPBOX        "Search Items",IDC_STATIC,12,37,99,65
+    CONTROL         "Process Names",IDC_PROCESSES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,53,64,10
+    CONTROL         "Event Names",IDC_EVENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,68,58,10
+    CONTROL         "Event Details",IDC_DETAILS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,83,58,10
+    GROUPBOX        "Search Options",IDC_STATIC,127,37,99,65
+    CONTROL         "Search Down",IDC_DOWN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,137,55,58,10
+    CONTROL         "Case Sensitive",IDC_CASESENSITIVE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,137,70,63,10
+    DEFPUSHBUTTON   "Find &Next",IDC_FINDNEXT,99,119,50,14,WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_STACK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 332
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 271
+    END
+
+    IDD_EVENTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_EVENT_PROPS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 362
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 265
+    END
+
+    IDD_FILTERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 380
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_FIND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "F",            ID_SEARCH_FINDALL,      VIRTKEY, SHIFT, CONTROL, NOINVERT
+    "F",            ID_SEARCH_QUICKFIND,    VIRTKEY, CONTROL, NOINVERT
+    VK_F3,          ID_SEARCH_FINDNEXT,     VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 2,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "Process Monitor X v2"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ProcMonXv2"
+            VALUE "LegalCopyright", "©2020-2021 Pavel Yosifovich"
+            VALUE "OriginalFilename", "ProcMonX.exe"
+            VALUE "ProductName", "Process Monitor X v2"
+            VALUE "ProductVersion", "2.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_STACK AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_EVENTS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_EVENT_PROPS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_FILTERS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_FIND AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "Process Monitor X v2.0 Beta 1"
+    IDS_TITLE               "Process Monitor X"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new tab\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_SCSIZE          "Change the window size"
+    ATL_IDS_SCMOVE          "Change the window position"
+    ATL_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    ATL_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    ATL_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    ATL_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    ATL_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_SCRESTORE       "Restore the window to normal size"
+    ATL_IDS_SCTASKLIST      "Activate Task List"
+    ATL_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_MRU_FILE        "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MONITOR_START        "Start Monitoring\nStart"
+    ID_MONITOR_STOP         "Stop Monitoring\nStop"
+    ID_MONITOR_CLEAR        "Delete all events in current view\nDelete All"
+    ID_EVENT_PROPERTIES     "View event properties\nEvent Properties"
+    ID_EVENT_CALLSTACK      "View call stack of the selected event\nCall Stack"
+    ID_MONITOR_CONFIGUREEVENTS "Configure events to monitor\nConfigure Events"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MONITOR_FILTERS      "Configure filters\nConfigure Filters"
+    ID_VIEW_AUTOSCROLL      "Enable or disable automatic scrolling\nAuto Scrolling"
+    ID_MONITOR_PAUSE        "Pause or Resume monitoring\nPause / Resume"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
